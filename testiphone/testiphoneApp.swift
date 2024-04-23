@@ -11,7 +11,6 @@ import SwiftUI
 struct testiphoneApp: App {
     var body: some Scene {
         WindowGroup {
-            Text("Hello word")
             ContentView()
         }
     }
