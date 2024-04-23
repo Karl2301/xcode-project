@@ -5,7 +5,7 @@ struct ContentView: View {
         VStack(){
             Image(systemName: "globe")
             Text("Annaeg X Karl")
-            Text("ta soeur")
+            Text("ton frere")
         }
     }
 }
