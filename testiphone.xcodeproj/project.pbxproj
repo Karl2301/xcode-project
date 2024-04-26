@@ -14,7 +14,6 @@
 		D915160B2BD18FDB0076DA2F /* testiphoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D915160A2BD18FDB0076DA2F /* testiphoneTests.swift */; };
 		D91516152BD18FDB0076DA2F /* testiphoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91516142BD18FDB0076DA2F /* testiphoneUITests.swift */; };
 		D91516172BD18FDB0076DA2F /* testiphoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91516162BD18FDB0076DA2F /* testiphoneUITestsLaunchTests.swift */; };
-		D91516242BD1A02F0076DA2F /* Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91516232BD1A02F0076DA2F /* Toolbar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +44,6 @@
 		D91516102BD18FDB0076DA2F /* testiphoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testiphoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D91516142BD18FDB0076DA2F /* testiphoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testiphoneUITests.swift; sourceTree = "<group>"; };
 		D91516162BD18FDB0076DA2F /* testiphoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testiphoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D91516232BD1A02F0076DA2F /* Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +74,6 @@
 		D91515ED2BD18FDA0076DA2F = {
 			isa = PBXGroup;
 			children = (
-				D91516232BD1A02F0076DA2F /* Toolbar.swift */,
 				D91515F82BD18FDA0076DA2F /* testiphone */,
 				D91516092BD18FDB0076DA2F /* testiphoneTests */,
 				D91516132BD18FDB0076DA2F /* testiphoneUITests */,
@@ -260,7 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D91516242BD1A02F0076DA2F /* Toolbar.swift in Sources */,
 				D91515FC2BD18FDA0076DA2F /* ContentView.swift in Sources */,
 				D91515FA2BD18FDA0076DA2F /* testiphoneApp.swift in Sources */,
 			);
