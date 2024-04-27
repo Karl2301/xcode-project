@@ -42,13 +42,13 @@ struct ContentView: View {
                                 .resizable()
                                 .frame(width: 200, height: 100)
                                 .cornerRadius(8)
-                            Button {
+                        Button {
                                 
-                            } label: {
-                                Image("redbullring")
-                                    .resizable()
-                                    .frame(width: 200, height: 100)
-                                    .cornerRadius(8)
+                        } label: {
+                            Image("redbullring")
+                                .resizable()
+                                .frame(width: 200, height: 100)
+                                .cornerRadius(8)
                                 
                             }
                         }
@@ -75,13 +75,13 @@ struct ContentView: View {
                                 .resizable()
                                 .frame(width: 200, height: 100)
                                 .cornerRadius(8)
-                            Button {
+                        Button {
                                 
-                            } label: {
-                                Image("spa")
-                                    .resizable()
-                                    .frame(width: 200, height: 100)
-                                    .cornerRadius(8)
+                        } label: {
+                            Image("spa")
+                                .resizable()
+                                .frame(width: 200, height: 100)
+                                .cornerRadius(8)
                             }
                         }
                     }
@@ -107,13 +107,13 @@ struct ContentView: View {
                                 .resizable()
                                 .frame(width: 200, height: 100)
                                 .cornerRadius(8)
-                            Button {
+                        Button {
                                 
-                            } label: {
-                                Image("watkins glen")
-                                    .resizable()
-                                    .frame(width: 200, height: 100)
-                                    .cornerRadius(8)
+                        } label: {
+                            Image("watkins glen")
+                                .resizable()
+                                .frame(width: 200, height: 100)
+                                .cornerRadius(8)
                             }
                         }
                     }
@@ -139,13 +139,13 @@ struct ContentView: View {
                                 .resizable()
                                 .frame(width: 200, height: 100)
                                 .cornerRadius(8)
-                            Button {
+                        Button {
                                 
-                            } label: {
+                        } label: {
                                 Image("monza")
-                                    .resizable()
-                                    .frame(width: 200, height: 100)
-                                    .cornerRadius(8)
+                                .resizable()
+                                .frame(width: 200, height: 100)
+                                .cornerRadius(8)
                             }
                         }
                     }
@@ -171,13 +171,13 @@ struct ContentView: View {
                                 .resizable()
                                 .frame(width: 200, height: 100)
                                 .cornerRadius(8)
-                            Button {
+                        Button {
                                 
-                            } label: {
-                                Image("kyalami")
-                                    .resizable()
-                                    .frame(width: 200, height: 100)
-                                    .cornerRadius(8)
+                        } label: {
+                            Image("kyalami")
+                                .resizable()
+                                .frame(width: 200, height: 100)
+                                .cornerRadius(8)
                             }
                         }
                     }
@@ -203,13 +203,13 @@ struct ContentView: View {
                                 .resizable()
                                 .frame(width: 200, height: 100)
                                 .cornerRadius(8)
-                            Button {
+                        Button {
                                 
-                            } label: {
-                                Image("nordschleife")
-                                    .resizable()
-                                    .frame(width: 200, height: 100)
-                                    .cornerRadius(8)
+                        } label: {
+                            Image("nordschleife")
+                                .resizable()
+                                .frame(width: 200, height: 100)
+                                .cornerRadius(8)
                             }
                         }
                     }
@@ -235,13 +235,13 @@ struct ContentView: View {
                                 .resizable()
                                 .frame(width: 200, height: 100)
                                 .cornerRadius(8)
-                            Button {
+                        Button {
                                 
-                            } label: {
-                                Image("catalunya")
-                                    .resizable()
-                                    .frame(width: 200, height: 100)
-                                    .cornerRadius(8)
+                        } label: {
+                            Image("catalunya")
+                                .resizable()
+                                .frame(width: 200, height: 100)
+                                .cornerRadius(8)
                             }
                         }
                     }
