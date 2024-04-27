@@ -10,7 +10,7 @@ struct page1: View {
                 .frame(maxWidth: .infinity, alignment: .top)
                 .padding()
             HStack{
-                Text("Jeux :")
+                Text("games :")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .frame(maxWidth: .infinity, alignment: .leading)
@@ -19,7 +19,7 @@ struct page1: View {
             Spacer().frame(height: 30)
             
             ScrollView{
-                VStack(spacing: 35){
+                VStack{
                     NavigationLink(destination: ContentView2()){
                         Image("assetto-corsa-pc-jeu-steam-cover")
                             .resizable()

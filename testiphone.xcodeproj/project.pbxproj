@@ -16,6 +16,9 @@
 		D91516172BD18FDB0076DA2F /* testiphoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91516162BD18FDB0076DA2F /* testiphoneUITestsLaunchTests.swift */; };
 		D969E2C92BDD3B0E007A9A1E /* page1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D969E2C82BDD3B0E007A9A1E /* page1.swift */; };
 		D969E2CB2BDD42DA007A9A1E /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D969E2CA2BDD42DA007A9A1E /* ContentView2.swift */; };
+		D969E2CD2BDD5696007A9A1E /* voiture.swift in Sources */ = {isa = PBXBuildFile; fileRef = D969E2CC2BDD5696007A9A1E /* voiture.swift */; };
+		D969E2CF2BDD59CA007A9A1E /* voitureAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D969E2CE2BDD59CA007A9A1E /* voitureAC.swift */; };
+		D969E2D12BDD5CE1007A9A1E /* fuelcalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D969E2D02BDD5CE1007A9A1E /* fuelcalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		D91516162BD18FDB0076DA2F /* testiphoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testiphoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D969E2C82BDD3B0E007A9A1E /* page1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = page1.swift; path = ../page1.swift; sourceTree = "<group>"; };
 		D969E2CA2BDD42DA007A9A1E /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		D969E2CC2BDD5696007A9A1E /* voiture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voiture.swift; sourceTree = "<group>"; };
+		D969E2CE2BDD59CA007A9A1E /* voitureAC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voitureAC.swift; sourceTree = "<group>"; };
+		D969E2D02BDD5CE1007A9A1E /* fuelcalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fuelcalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				D91515FB2BD18FDA0076DA2F /* ContentView.swift */,
 				D969E2C82BDD3B0E007A9A1E /* page1.swift */,
 				D969E2CA2BDD42DA007A9A1E /* ContentView2.swift */,
+				D969E2CC2BDD5696007A9A1E /* voiture.swift */,
+				D969E2CE2BDD59CA007A9A1E /* voitureAC.swift */,
+				D969E2D02BDD5CE1007A9A1E /* fuelcalculator.swift */,
 				D91515FD2BD18FDB0076DA2F /* Assets.xcassets */,
 				D91515FF2BD18FDB0076DA2F /* Preview Content */,
 			);
@@ -263,10 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D969E2CF2BDD59CA007A9A1E /* voitureAC.swift in Sources */,
 				D91515FC2BD18FDA0076DA2F /* ContentView.swift in Sources */,
 				D969E2CB2BDD42DA007A9A1E /* ContentView2.swift in Sources */,
+				D969E2CD2BDD5696007A9A1E /* voiture.swift in Sources */,
 				D91515FA2BD18FDA0076DA2F /* testiphoneApp.swift in Sources */,
 				D969E2C92BDD3B0E007A9A1E /* page1.swift in Sources */,
+				D969E2D12BDD5CE1007A9A1E /* fuelcalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
