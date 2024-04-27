@@ -1,15 +1,14 @@
 import SwiftUI
-
 struct page1: View {
     var body: some View {
-        HStack {
+        NavigationView{
+
+        VStack {
             Text("LFMFuelCalculator")
                 .bold()
                 .font(.system(size: 36))
                 .frame(maxWidth: .infinity, alignment: .top)
                 .padding()
-        }
-        VStack {
             HStack{
                 Text("Jeux :")
                     .font(.largeTitle)
@@ -21,24 +20,20 @@ struct page1: View {
             
             ScrollView{
                 VStack(spacing: 35){
-                    Button {
-                        
-                    } label: {
+                    NavigationLink(destination: ContentView2()){
                         Image("assetto-corsa-pc-jeu-steam-cover")
                             .resizable()
                             .frame(width: 350, height: 200)
                             .cornerRadius(8)
-                        }
+                    }}
                 VStack{
-                    Button {
-                            
-                    } label: {
+                    NavigationLink(destination: ContentView()){
                         Image("acc")
                             .resizable()
                             .frame(width: 350, height: 200)
                             .cornerRadius(8)
-                        }
-                    
+                        
+                    }
                     }
                 }
                 
