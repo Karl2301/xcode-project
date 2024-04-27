@@ -15,6 +15,7 @@
 		D91516152BD18FDB0076DA2F /* testiphoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91516142BD18FDB0076DA2F /* testiphoneUITests.swift */; };
 		D91516172BD18FDB0076DA2F /* testiphoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91516162BD18FDB0076DA2F /* testiphoneUITestsLaunchTests.swift */; };
 		D969E2C92BDD3B0E007A9A1E /* page1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D969E2C82BDD3B0E007A9A1E /* page1.swift */; };
+		D969E2CB2BDD42DA007A9A1E /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D969E2CA2BDD42DA007A9A1E /* ContentView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		D91516142BD18FDB0076DA2F /* testiphoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testiphoneUITests.swift; sourceTree = "<group>"; };
 		D91516162BD18FDB0076DA2F /* testiphoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testiphoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D969E2C82BDD3B0E007A9A1E /* page1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = page1.swift; path = ../page1.swift; sourceTree = "<group>"; };
+		D969E2CA2BDD42DA007A9A1E /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				D91515F92BD18FDA0076DA2F /* testiphoneApp.swift */,
 				D91515FB2BD18FDA0076DA2F /* ContentView.swift */,
 				D969E2C82BDD3B0E007A9A1E /* page1.swift */,
+				D969E2CA2BDD42DA007A9A1E /* ContentView2.swift */,
 				D91515FD2BD18FDB0076DA2F /* Assets.xcassets */,
 				D91515FF2BD18FDB0076DA2F /* Preview Content */,
 			);
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D91515FC2BD18FDA0076DA2F /* ContentView.swift in Sources */,
+				D969E2CB2BDD42DA007A9A1E /* ContentView2.swift in Sources */,
 				D91515FA2BD18FDA0076DA2F /* testiphoneApp.swift in Sources */,
 				D969E2C92BDD3B0E007A9A1E /* page1.swift in Sources */,
 			);
