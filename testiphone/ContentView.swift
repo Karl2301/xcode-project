@@ -42,6 +42,8 @@ struct ContentView: View {
                                 .resizable()
                                 .frame(width: 200, height: 100)
                                 .cornerRadius(8)
+                        
+                        }
                         Button {
                                 
                         } label: {
@@ -51,7 +53,6 @@ struct ContentView: View {
                                 .cornerRadius(8)
                                 
                             }
-                        }
                     }
                 }
                 HStack{
@@ -75,6 +76,7 @@ struct ContentView: View {
                                 .resizable()
                                 .frame(width: 200, height: 100)
                                 .cornerRadius(8)
+                        }
                         Button {
                                 
                         } label: {
@@ -83,7 +85,6 @@ struct ContentView: View {
                                 .frame(width: 200, height: 100)
                                 .cornerRadius(8)
                             }
-                        }
                     }
                 }
                 HStack{
@@ -107,6 +108,8 @@ struct ContentView: View {
                                 .resizable()
                                 .frame(width: 200, height: 100)
                                 .cornerRadius(8)
+                        
+                        }
                         Button {
                                 
                         } label: {
@@ -115,7 +118,6 @@ struct ContentView: View {
                                 .frame(width: 200, height: 100)
                                 .cornerRadius(8)
                             }
-                        }
                     }
                 }
                 HStack{
@@ -139,6 +141,8 @@ struct ContentView: View {
                                 .resizable()
                                 .frame(width: 200, height: 100)
                                 .cornerRadius(8)
+                    
+                        }
                         Button {
                                 
                         } label: {
@@ -147,7 +151,6 @@ struct ContentView: View {
                                 .frame(width: 200, height: 100)
                                 .cornerRadius(8)
                             }
-                        }
                     }
                 }
                 HStack{
@@ -171,6 +174,8 @@ struct ContentView: View {
                                 .resizable()
                                 .frame(width: 200, height: 100)
                                 .cornerRadius(8)
+                        
+                        }
                         Button {
                                 
                         } label: {
@@ -179,7 +184,6 @@ struct ContentView: View {
                                 .frame(width: 200, height: 100)
                                 .cornerRadius(8)
                             }
-                        }
                     }
                 }
                 HStack{
@@ -203,6 +207,8 @@ struct ContentView: View {
                                 .resizable()
                                 .frame(width: 200, height: 100)
                                 .cornerRadius(8)
+                        
+                        }
                         Button {
                                 
                         } label: {
@@ -211,7 +217,6 @@ struct ContentView: View {
                                 .frame(width: 200, height: 100)
                                 .cornerRadius(8)
                             }
-                        }
                     }
                 }
                 HStack{
@@ -235,6 +240,8 @@ struct ContentView: View {
                                 .resizable()
                                 .frame(width: 200, height: 100)
                                 .cornerRadius(8)
+                        
+                        }
                         Button {
                                 
                         } label: {
@@ -243,15 +250,14 @@ struct ContentView: View {
                                 .frame(width: 200, height: 100)
                                 .cornerRadius(8)
                             }
-                        }
                     }
                 }
             }
         }
                 
-                Spacer() /// forces content to top
-            }
+    Spacer() /// forces content to top
     }
+}
 
 #Preview {
     ContentView()
