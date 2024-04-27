@@ -23,12 +23,12 @@ struct ContentView: View {
             ScrollView{
                 HStack{
                     Text("Imola")
-                        .font(.system(size: 22))
+                        .font(.system(size: 20))
                         .fontWeight(.bold)
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.leading, 80)
                     Text("Redbullring")
-                        .font(.system(size: 22))
+                        .font(.system(size: 20))
                         .fontWeight(.bold)
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.leading, 40)
@@ -57,12 +57,12 @@ struct ContentView: View {
                 }
                 HStack{
                     Text("Zandvoort")
-                        .font(.system(size: 22))
+                        .font(.system(size: 20))
                         .fontWeight(.bold)
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.leading, 58)
                     Text("Spa-Francorchamps")
-                        .font(.system(size: 22))
+                        .font(.system(size: 20))
                         .fontWeight(.bold)
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.leading, 0)
@@ -89,12 +89,12 @@ struct ContentView: View {
                 }
                 HStack{
                     Text("Bathurst")
-                        .font(.system(size: 22))
+                        .font(.system(size: 20))
                         .fontWeight(.bold)
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.leading, 59)
                     Text("Watkins glen")
-                        .font(.system(size: 22))
+                        .font(.system(size: 20))
                         .fontWeight(.bold)
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.leading, 32)
@@ -122,12 +122,12 @@ struct ContentView: View {
                 }
                 HStack{
                     Text("Silverstone")
-                        .font(.system(size: 22))
+                        .font(.system(size: 20))
                         .fontWeight(.bold)
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.leading, 49)
                     Text("Monza")
-                        .font(.system(size: 22))
+                        .font(.system(size: 20))
                         .fontWeight(.bold)
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.leading, 66)
@@ -155,12 +155,12 @@ struct ContentView: View {
                 }
                 HStack{
                     Text("Zolder")
-                        .font(.system(size: 22))
+                        .font(.system(size: 20))
                         .fontWeight(.bold)
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.leading, 75)
                     Text("Kyalami")
-                        .font(.system(size: 22))
+                        .font(.system(size: 20))
                         .fontWeight(.bold)
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.leading, 57)
@@ -188,12 +188,12 @@ struct ContentView: View {
                 }
                 HStack{
                     Text("Nurburgring gp")
-                        .font(.system(size: 22))
+                        .font(.system(size: 20))
                         .fontWeight(.bold)
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.leading, 30)
                     Text("Nordschelife")
-                        .font(.system(size: 22))
+                        .font(.system(size: 20))
                         .fontWeight(.bold)
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.leading, 34)
@@ -221,12 +221,12 @@ struct ContentView: View {
                 }
                 HStack{
                     Text("Outlon park")
-                        .font(.system(size: 22))
+                        .font(.system(size: 20))
                         .fontWeight(.bold)
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.leading, 46)
                     Text("Catalunya")
-                        .font(.system(size: 22))
+                        .font(.system(size: 20))
                         .fontWeight(.bold)
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.leading, 48)
