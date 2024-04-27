@@ -26,7 +26,7 @@ struct ContentView: View {
                         .font(.system(size: 20))
                         .fontWeight(.bold)
                         .frame(maxWidth: .infinity, alignment: .leading)
-                        .padding(.leading, 80)
+                        .padding(.leading, 84)
                     Text("Redbullring")
                         .font(.system(size: 20))
                         .fontWeight(.bold)
@@ -92,12 +92,12 @@ struct ContentView: View {
                         .font(.system(size: 20))
                         .fontWeight(.bold)
                         .frame(maxWidth: .infinity, alignment: .leading)
-                        .padding(.leading, 59)
+                        .padding(.leading, 65)
                     Text("Watkins glen")
                         .font(.system(size: 20))
                         .fontWeight(.bold)
                         .frame(maxWidth: .infinity, alignment: .leading)
-                        .padding(.leading, 32)
+                        .padding(.leading, 40)
                 }
                 Grid{
                     GridRow(){
@@ -125,7 +125,7 @@ struct ContentView: View {
                         .font(.system(size: 20))
                         .fontWeight(.bold)
                         .frame(maxWidth: .infinity, alignment: .leading)
-                        .padding(.leading, 49)
+                        .padding(.leading, 55)
                     Text("Monza")
                         .font(.system(size: 20))
                         .fontWeight(.bold)
@@ -158,12 +158,12 @@ struct ContentView: View {
                         .font(.system(size: 20))
                         .fontWeight(.bold)
                         .frame(maxWidth: .infinity, alignment: .leading)
-                        .padding(.leading, 75)
+                        .padding(.leading, 80)
                     Text("Kyalami")
                         .font(.system(size: 20))
                         .fontWeight(.bold)
                         .frame(maxWidth: .infinity, alignment: .leading)
-                        .padding(.leading, 57)
+                        .padding(.leading, 66)
                 }
                 Grid{
                     GridRow(){
@@ -224,12 +224,12 @@ struct ContentView: View {
                         .font(.system(size: 20))
                         .fontWeight(.bold)
                         .frame(maxWidth: .infinity, alignment: .leading)
-                        .padding(.leading, 46)
+                        .padding(.leading, 52)
                     Text("Catalunya")
                         .font(.system(size: 20))
                         .fontWeight(.bold)
                         .frame(maxWidth: .infinity, alignment: .leading)
-                        .padding(.leading, 48)
+                        .padding(.leading, 54)
                 }
                 Grid{
                     GridRow(){
@@ -252,7 +252,173 @@ struct ContentView: View {
                             }
                     }
                 }
+                HStack{
+                    Text("Suzuka")
+                        .font(.system(size: 20))
+                        .fontWeight(.bold)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(.leading, 72)
+                    Text("Donington park")
+                        .font(.system(size: 20))
+                        .fontWeight(.bold)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(.leading, 28)
+                }
+                Grid{
+                    GridRow(){
+                        Button {
+                            
+                        } label: {
+                            Image("suzuka")
+                                .resizable()
+                                .frame(width: 200, height: 100)
+                                .cornerRadius(8)
+                        
+                        }
+                        Button {
+                                
+                        } label: {
+                            Image("donington park")
+                                .resizable()
+                                .frame(width: 200, height: 100)
+                                .cornerRadius(8)
+                            }
+                    }
+                }
+                HStack{
+                    Text("Brands hatch")
+                        .font(.system(size: 20))
+                        .fontWeight(.bold)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(.leading, 46)
+                    Text("Paul Ricard")
+                        .font(.system(size: 20))
+                        .fontWeight(.bold)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(.leading, 47)
+                }
+                Grid{
+                    GridRow(){
+                        Button {
+                            
+                        } label: {
+                            Image("brands hatch")
+                                .resizable()
+                                .frame(width: 200, height: 100)
+                                .cornerRadius(8)
+                        
+                        }
+                        Button {
+                                
+                        } label: {
+                            Image("paul ricard")
+                                .resizable()
+                                .frame(width: 200, height: 100)
+                                .cornerRadius(8)
+                            }
+                    }
+                }
+                HStack{
+                    Text("Snetterton")
+                        .font(.system(size: 20))
+                        .fontWeight(.bold)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(.leading, 58)
+                    Text("Misano")
+                        .font(.system(size: 20))
+                        .fontWeight(.bold)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(.leading, 65)
+                }
+                Grid{
+                    GridRow(){
+                        Button {
+                            
+                        } label: {
+                            Image("snetterton")
+                                .resizable()
+                                .frame(width: 200, height: 100)
+                                .cornerRadius(8)
+                        
+                        }
+                        Button {
+                                
+                        } label: {
+                            Image("misano")
+                                .resizable()
+                                .frame(width: 200, height: 100)
+                                .cornerRadius(8)
+                            }
+                    }
+                }
+                HStack{
+                    Text("Americas")
+                        .font(.system(size: 20))
+                        .fontWeight(.bold)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(.leading, 65)
+                    Text("Indianapolis gp")
+                        .font(.system(size: 20))
+                        .fontWeight(.bold)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(.leading, 30)
+                }
+                Grid{
+                    GridRow(){
+                        Button {
+                            
+                        } label: {
+                            Image("americas")
+                                .resizable()
+                                .frame(width: 200, height: 100)
+                                .cornerRadius(8)
+                        
+                        }
+                        Button {
+                                
+                        } label: {
+                            Image("indianapolis gp")
+                                .resizable()
+                                .frame(width: 200, height: 100)
+                                .cornerRadius(8)
+                            }
+                    }
+                }
+                HStack{
+                    Text("Laguna seca")
+                        .font(.system(size: 20))
+                        .fontWeight(.bold)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(.leading, 48)
+                    Text("Hungaroring")
+                        .font(.system(size: 20))
+                        .fontWeight(.bold)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(.leading, 42)
+                }
+                Grid{
+                    GridRow(){
+                        Button {
+                            
+                        } label: {
+                            Image("laguna seca")
+                                .resizable()
+                                .frame(width: 200, height: 100)
+                                .cornerRadius(8)
+                        
+                        }
+                        Button {
+                                
+                        } label: {
+                            Image("Hungaroring")
+                                .resizable()
+                                .frame(width: 200, height: 100)
+                                .cornerRadius(8)
+                            }
+                    }
+                }
             }
+            
         }
                 
     Spacer() /// forces content to top
